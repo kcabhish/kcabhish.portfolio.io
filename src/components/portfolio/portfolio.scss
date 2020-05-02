@@ -1,0 +1,29 @@
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    >.projects-container {
+        >h1{
+            text-align: left;
+            margin: 2.5vw 10vw;
+        }
+        
+    }
+    >.title-container {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid white;
+        padding: 0.5em;
+        h1 {
+            font-size: 2em;
+            font-weight: 800;
+            padding: 0.5em;
+        }
+        h5 {
+            font-size: 0.80em;
+            font-weight: 700;
+        }
+        h1,h2, h3, h4,  h5, h6{
+            margin: unset;
+        }
+    }
+}

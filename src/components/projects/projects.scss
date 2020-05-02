@@ -1,0 +1,29 @@
+@import '../../variables.scss';
+
+.project-container {
+    width: 80vw;
+    margin: 2.5vw 10vw;
+    border: 1px solid white;
+    background-color: $containerColor;
+    >.title-container {
+        display: flex;
+        border-bottom: 1px solid white;
+        padding: 0.5em;
+        align-items: center;
+        justify-content: space-between;
+        >h1 {
+            margin: 10px;
+        }
+    }
+    >.description-container  {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-left: 0.5vw;
+    }
+   
+    ul {
+        text-align: left;
+    }
+
+}
